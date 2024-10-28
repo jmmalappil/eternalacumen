@@ -1,0 +1,77 @@
+/* client/src/components/ProjectsPage.css */
+
+.projects-page {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #333;
+  }
+  
+  .projects-page h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-card p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .video-container {
+    margin-bottom: 15px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .project-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .github-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .github-link:hover {
+    color: #0056b3;
+  }
+  
+  .demo-button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .demo-button:hover {
+    background-color: #218838;
+  }
+  
