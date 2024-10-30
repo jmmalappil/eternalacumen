@@ -15,6 +15,10 @@ function SkillsPage() {
       skills: ['TensorFlow', 'PyTorch', 'scikit-learn'],
     },
     {
+      category: 'Data Analysis and Manipulation',
+      skills: ['NumPy', 'Pandas'],
+    },
+    {
       category: 'Data Visualization',
       skills: ['Matplotlib', 'Seaborn', 'Plotly'],
     },

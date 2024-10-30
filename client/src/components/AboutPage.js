@@ -22,6 +22,7 @@ function AboutPage() {
       <ul>
         <li>Programming Languages: Python, JavaScript, SQL</li>
         <li>ML Frameworks: TensorFlow, PyTorch, scikit-learn</li>
+        <li>Data Analysis and Manipulation: NumPy, Pandas</li>
         <li>Data Visualization: Matplotlib, Seaborn, Plotly</li>
         <li>Other Tools: Git, Docker, Jupyter Notebook</li>
       </ul>

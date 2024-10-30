@@ -18,6 +18,18 @@ function ProjectsPage() {
       youtubeEmbed: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
       githubLink: 'https://github.com/yourusername/project2',
     },
+    {
+      title: 'Project 3',
+      description: 'This project involves AI/ML for image recognition.',
+      youtubeEmbed: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Replace with your video link
+      githubLink: 'https://github.com/yourusername/project1',
+    },
+    {
+      title: 'Project 4',
+      description: 'This project focuses on natural language processing.',
+      youtubeEmbed: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+      githubLink: 'https://github.com/yourusername/project2',
+    },
     // Add more projects here
   ];
 
@@ -45,7 +57,6 @@ function ProjectsPage() {
               <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
                 View on GitHub
               </a>
-              <button className="demo-button">Request Live Demo</button>
             </div>
           </div>
         ))}
